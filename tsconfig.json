@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",                          
+    "module": "commonjs",                     
+    "outDir": "dist",                  
+    "strict": true,                               
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "incremental": true    
+  },
+  "include": [
+    "./*.js",
+    "src/**/*.ts"    
+  ]            
+}
